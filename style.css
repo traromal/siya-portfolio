@@ -4,19 +4,19 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #FFD1DC;
+    background-color: white;
 }
 h1,li, a, button{
     font-family: "Press Start 2P",sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 17px;
     text-decoration: none;
     color: rgb(139, 195, 245);
 
 }
 h1{
-    font-size: 20px;
-    color: grey;
+    font-size: 25px;
+    color: #e4c1f9;
 }
 
 body{
@@ -51,12 +51,12 @@ body{
 button{
     margin-left: 20px;
     padding:9px;
-    background-color: aqua;
+    background-color: #a9def9;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    color:gray;
+    color:white;
 }
 button:hover{
     background-color: rgb(182, 236, 236);
