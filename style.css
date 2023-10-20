@@ -90,9 +90,29 @@ button:hover {
 
 .container {
     margin-top: 100px ;
+    margin-left: 20px;
+    margin-right: 20px;
     max-width: auto;
     max-height: auto;
 
+
+}
+.container1 {
+  margin-top: 100px ;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: auto;
+  max-height: auto;
+
+
+}
+.card1 {
+  background: #fff;
+  border-radius: 20px;
+  filter: drop-shadow(8px 8px 0px #000);
+  padding: 20px;
+  border: 4px solid #000;
+  
 }
 
 .card {
@@ -101,6 +121,7 @@ button:hover {
     filter: drop-shadow(8px 8px 0px #000);
     padding: 20px;
     border: 4px solid #000;
+    
 }
 
 .card h1 {
@@ -108,9 +129,18 @@ button:hover {
     font-size: 42px;
     letter-spacing: 2px;
 }
+.card1 h1 {
+  margin: 0;
+  font-size: 42px;
+  letter-spacing: 2px;
+}
 
 .card p {
     font-size: 18px;
+}
+
+.card1 p {
+  font-size: 18px;
 }
 
 .button-container {
