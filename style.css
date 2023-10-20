@@ -5,15 +5,15 @@
     margin: 0;
     padding: 0;
     background-color: white;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 1%;
+    padding-right:1%;
 }
 
 .main {
     width: 100%;
     height: 100%;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 h1, li, a, button {
@@ -55,11 +55,12 @@ nav {
 
 .nav-links {
     list-style: none;
+    display: inline;
 }
 
 .navbar li {
     display: inline;
-    padding: 0px 20px;
+    margin-right: 20px;
     align-items: center;
     text-decoration: none;
 }
@@ -88,8 +89,10 @@ button:hover {
 }
 
 .container {
-    margin-top: 100px auto;
+    margin-top: 100px ;
     max-width: auto;
+    max-height: auto;
+
 }
 
 .card {
